@@ -22,3 +22,12 @@ link - [nodejs install](https://nodejs.org/en/download
 2.) RUN
 **npm install  (To install all the dependency),
 npm start  (To start the project locally).**
+
+### Some images of the Game
+
+![Interface 1](https://github.com/Aditya1979314/Egg-Catcher-Game/assets/110729414/2e865aa0-e35e-44b1-a868-bc687c866cac)
+
+![Interface 2](https://github.com/Aditya1979314/Egg-Catcher-Game/assets/110729414/5fba1b4f-dc84-495f-8bd6-45cff8e37541)
+
+
+![Interface 3](https://github.com/Aditya1979314/Egg-Catcher-Game/assets/110729414/8a97b94b-7132-488f-a9c1-728c0010a0a2)
