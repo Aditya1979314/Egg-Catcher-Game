@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const server = require("http").createServer(app);
 const io = require("socket.io")(server, { cors: { origin: "*" } });
+const PORT = process.env.PORT || 3000 ;
 
 let connectedUsers = {}; // Store connected users using a dictionary (object)
 
@@ -58,6 +59,6 @@ io.on("connection", (socket) => {
     });
 });
 
-server.listen(3000, () => {
+server.listen(PORT, () => {
     console.log("The server is running on port 3000");
 });
